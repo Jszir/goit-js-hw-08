@@ -21,8 +21,6 @@ player.on('timeupdate', lodash(function(event) {
 }, 1000)); 
 
 
-
-
 const Time = GetTime();
 player.setCurrentTime(Time).then(function() {
     console.log('Reanudando la reproducción desde', Time, 'segundos.');
